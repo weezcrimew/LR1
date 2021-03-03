@@ -1,0 +1,19 @@
+<html>
+
+<head>
+  <title>Эдуард Салимов</title>
+</head>
+
+<body>
+<input type="button" value="Сменить цвет!" id="color">
+
+<script>
+  document.getElementById("color").onclick = function () {
+    document.body.style.backgroundColor = `green`;
+    
+    
+  }
+</script>
+</body>
+
+</html>
